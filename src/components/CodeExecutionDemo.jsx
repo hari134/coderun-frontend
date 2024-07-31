@@ -164,11 +164,11 @@ function CodeExecutionDemo() {
       memoryLimit
     };
 
-    fetch('http://localhost:8080/submissions/execute?wait=true', {
+    fetch('http://142.93.218.83:8080/submissions/execute?wait=true', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-API-KEY': 'replace-with-your-key'
+        'X-API-KEY': 'c5f8968c247d499b910b1e2945112917'
       },
       body: JSON.stringify(requestData),
     })

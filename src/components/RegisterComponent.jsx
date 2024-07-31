@@ -8,7 +8,7 @@ function RegisterComponent() {
 
     const handleRegister = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:8080/users/register', {
+        const response = await fetch('http://142.93.218.83:8080/users/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -10,7 +10,7 @@ function LoginComponent() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:8080/users/login', {
+        const response = await fetch('http://142.93.218.83:8080/users/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',

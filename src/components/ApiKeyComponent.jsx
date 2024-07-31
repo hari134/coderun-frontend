@@ -34,7 +34,7 @@ function ApiKeyComponent() {
     const [apiKeyData, setApiKeyData] = useState({});
 
     const fetchApiKeys = async () => {
-        const response = await fetch('http://localhost:8080/users/get-user-api-keys', {
+        const response = await fetch('http://142.93.218.83:8080/users/get-user-api-keys', {
             method: 'GET',
             credentials: 'include'
         });
@@ -48,7 +48,7 @@ function ApiKeyComponent() {
     };
 
     const generateApiKey = async () => {
-        const response = await fetch('http://localhost:8080/users/generate-api-key', {
+        const response = await fetch('http://142.93.218.83:8080/users/generate-api-key', {
             method: 'GET',
             credentials: 'include'
         });
